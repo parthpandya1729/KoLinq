@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_lists",
+  "info": {
+    "singularName": "business-list",
+    "pluralName": "business-lists",
+    "displayName": "BusinessList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "address": {
+      "type": "text"
+    },
+    "mail": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "hours": {
+      "type": "string"
+    },
+    "reviews": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "facebookUrl": {
+      "type": "text"
+    },
+    "instagramUrl": {
+      "type": "text"
+    },
+    "linkedlnUrl": {
+      "type": "text"
+    },
+    "BussinessDirection": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorylists",
+  "info": {
+    "singularName": "categorylist",
+    "pluralName": "categorylists",
+    "displayName": "categorylist",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categoryname": {
+      "type": "string"
+    },
+    "categoryImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "subcategory": {
+      "type": "json"
+    }
+  }
+}

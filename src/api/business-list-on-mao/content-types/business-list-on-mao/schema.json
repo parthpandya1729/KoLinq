@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_list_on_maos",
+  "info": {
+    "singularName": "business-list-on-mao",
+    "pluralName": "business-list-on-maos",
+    "displayName": "BusinessListOnMap",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "city": {
+      "type": "string"
+    }
+  }
+}
