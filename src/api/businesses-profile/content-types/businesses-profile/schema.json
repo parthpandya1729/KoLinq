@@ -4,16 +4,14 @@
   "info": {
     "singularName": "businesses-profile",
     "pluralName": "businesses-profiles",
-    "displayName": "businessesProfile"
+    "displayName": "businessesProfile",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "businessName": {
-      "type": "string"
-    },
     "description": {
       "type": "text"
     },
@@ -26,44 +24,99 @@
     "phone": {
       "type": "biginteger"
     },
-    "websiteUrl": {
+    "webURL": {
       "type": "string"
     },
-    "hours": {
+    "ownerFirstName": {
       "type": "string"
     },
-    "days": {
+    "ownerLastName": {
       "type": "string"
     },
-    "businessProfileImage": {
+    "ownerAge": {
+      "type": "biginteger"
+    },
+    "ownerProfession": {
+      "type": "string"
+    },
+    "ownerCity": {
+      "type": "string"
+    },
+    "ownerEmail": {
+      "type": "email"
+    },
+    "ownerPhone": {
+      "type": "biginteger"
+    },
+    "category": {
+      "type": "string"
+    },
+    "otherCategory": {
+      "type": "string"
+    },
+    "subcategory": {
+      "type": "string"
+    },
+    "name": {
+      "type": "text"
+    },
+    "liveLocation": {
+      "type": "json"
+    },
+    "businessDays": {
+      "type": "date"
+    },
+    "OT": {
+      "type": "time"
+    },
+    "CT": {
+      "type": "time"
+    },
+    "BST": {
+      "type": "time"
+    },
+    "BET": {
+      "type": "time"
+    },
+    "facebookLink": {
+      "type": "text"
+    },
+    "instagramLink": {
+      "type": "text"
+    },
+    "linkedinLink": {
+      "type": "text"
+    },
+    "otherLink": {
+      "type": "text"
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "businessBannerImg": {
+    "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "businessGallery": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
+    "ownerId": {
+      "type": "biginteger"
+    },
+    "textLocation": {
+      "type": "json"
     }
   }
 }

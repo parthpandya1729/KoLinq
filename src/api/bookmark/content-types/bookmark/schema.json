@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookmarks",
+  "info": {
+    "singularName": "bookmark",
+    "pluralName": "bookmarks",
+    "displayName": "bookmark"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BussinessId": {
+      "type": "integer"
+    },
+    "businessName": {
+      "type": "string"
+    },
+    "BussinessDirection": {
+      "type": "json"
+    },
+    "UserId": {
+      "type": "integer"
+    }
+  }
+}
